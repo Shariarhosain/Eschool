@@ -1,0 +1,221 @@
+@media (max-width: 575.98px) {
+
+    .header_contant p {
+        font-size: 11px !important;
+    }
+
+    .box .title {
+        font-size: 10px !important;
+    }
+
+
+    .course_avable span:nth-child(2) {
+        opacity: 1 !important;
+    }
+
+    .what_we_offer_contant h3 {
+        font-size: 12px;
+    }
+
+    .what_we_offer_contant p {
+        font-size: 12px;
+    }
+
+    .what_we_offer_contant {
+        padding: 8px 0;
+    }
+
+    .course_h h2 {
+        font-size: 26px !important;
+    }
+
+
+
+    .footer_end {
+        font-size: 13px;
+
+    }
+
+    .footer_end strong {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .box .icon li a {
+
+        width: 35px;
+        height: 35px;
+
+        line-height: 35px;
+    }
+
+    .navbar-brand img {
+        max-height: 41px !important;
+    }
+
+    .header_contant {
+        text-align: center;
+    }
+
+    .header_contant h1 {
+        font-size: 28px !important;
+        max-width: 502px !important;
+        margin: auto !important;
+        padding: 10px 0 !important;
+    }
+
+    .header_contant p {
+        padding-bottom: 24px !important;
+        margin: auto;
+    }
+
+    .course_header h4 {
+
+        font-size: 21px;
+    }
+
+    .course_avable {
+
+        font-size: 10px;
+    }
+
+    /*
+.box2 .titlet {
+    font-size: 11px !important;
+}
+*/
+
+
+
+    .testimonial_img img {
+        max-width: 180px;
+
+    }
+
+    .testimonial {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+
+    .box:before,
+    .box:after,
+    .box .box-content:before,
+    .box .box-content:after {
+        top: 37%;
+        left: 42%;
+
+    }
+
+    .testimonial_img img {
+
+        padding-bottom: 20px;
+        border: 0;
+
+    }
+
+    .nav-link {
+        text-align: center;
+        font-size: 15px;
+        color: white ! important;
+    }
+
+    .nav-link:hover {
+        color: black !important;
+    }
+
+    .collapse:not(.show) {
+        background: #000000b3;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+    }
+
+    .mobileMenu {
+
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        position: fixed;
+        top: -48px;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        -webkit-transition: all ease 0.25s;
+        transition: all ease 0.25s;
+    }
+
+    .mobileMenu.open {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .mobileMenu .navbar-nav {
+        overflow-y: auto;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+    .overlay.open {
+        display: block;
+        z-index: 1029;
+    }
+
+    .header_contant p {
+        font-size: 13px;
+        line-height: 26px;
+        padding-bottom: 0px;
+    }
+
+    .header_contant h1 {
+        max-width: 281px;
+        font-size: 32px;
+        line-height: 1
+    }
+
+    .btn {
+        font-size: 11px;
+    }
+
+    .testimonial_contant p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1199.98px) {
+
+    .box2 .titlet {
+        font-size: 14px;
+    }
+
+
+    .course_avable span:nth-child(2) {
+        opacity: 0;
+    }
+
+}
+
+
+@media (max-width: 1399.98px) {}
